@@ -23,7 +23,7 @@ var HTMLgithub = '<li class="flex-item"><span class="orange-text">github</span><
 var HTMLblog = '<li class="flex-item"><span class="orange-text">blog</span><span class="white-text">%data%</span></li>';
 var HTMLlocation = '<li class="flex-item"><span class="orange-text">location</span><span class="white-text">Evanston, IL</span></li>';
 
-var HTMLbioPic = '<img src="./images/yixi.jpg" class="biopic">';
+var HTMLbioPic = '<img src="./images/yixi.JPG" class="biopic">';
 var HTMLwelcomeMsg = '<span class="welcome-message"></span>';
 
 var HTMLskillsStart = '<h3 id="skills-h3">Skills at a Glance:</h3><ul id="skills" class="flex-column"></ul>';
@@ -45,12 +45,12 @@ var HTMLprojectDescription = '<p><br>Built a website that users allows to create
 var HTMLprojectImage = '<img src="%data%">';
 
 var HTMLproject2Start = '<div id ="project2" class="project-entry"></div>';
-var HTMLproject2Title = '<a href="#">Web camera</a>';
+var HTMLproject2Title = '<a href="webcam/index.html">Web camera</a>';
 var HTMLproject2Dates = '<div class="date-text">Jan. 2016 - Mar. 2017</div>';
 var HTMLproject2Description = '<p><br>Construct a wireless camera and website to show the real-time picture</p><p>Involve a printed circuit design using PCB CAD software, surface mount soldering, MCU programming, CAD design for 3D printing, and web design</p>';
 
 var HTMLproject3Start = '<div id ="project3" class="project-entry"></div>';
-var HTMLproject3Title = '<a href="#">CAESAR Academic System</a>';
+var HTMLproject3Title = '<a href="https://github.com/yixxxichen/Project3_Files">CAESAR Academic System</a>';
 var HTMLproject3Dates = '<div class="date-text">Nov. 2016 - Dec. 2016</div>';
 var HTMLproject3Description = '<p><br>Develop a database client that implements the lines of Northwestern CAESAR academic system</p><p>Implemented C API to MySQL database</p>';
 
