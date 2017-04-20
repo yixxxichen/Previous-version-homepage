@@ -1,3 +1,12 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
 body,
 div,
 ul,
@@ -13,7 +22,29 @@ h6 {
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
-
+#gmail{
+  color:red;
+  margin-top: 0px;
+  display: inline;
+}
+#github{
+    margin-top: 0px;
+  display: inline;
+}
+#linkedin{
+  color:darkblue;
+  margin-top: 0px;
+  display: inline;
+}
+#skype{
+  color:cyan;
+  margin-top: 0px;
+  display: inline;
+}
+.icon{
+  font-size: 1.5em;
+  line-height: 1em;
+}
 .clear-fix {
   overflow: auto;
 }
